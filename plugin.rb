@@ -78,8 +78,8 @@ class LDAPAuthenticator < ::Auth::Authenticator
   end
 end
 
-auth_provider title: 'with LDAP',
-  message: 'Log in with your LDAP credentials',
+auth_provider title: 'with Partsphere',
+  message: 'Log in with your Partsphere credentials. If you are a Vipar member and have not yet setup your Partsphere password or cannot cannot remember your Partsphere password, please visit <a href="https://cloud.partsphere.net/account/">https://cloud.partsphere.net/account/</a> to reset your password.',
   frame_width: 920,
   frame_height: 800,
   authenticator: LDAPAuthenticator.new
